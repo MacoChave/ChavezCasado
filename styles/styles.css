@@ -1,0 +1,22 @@
+.image-container {
+    position: relative;
+}
+
+.image-container::after, .image-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 30%;
+    z-index: 1;
+}
+
+.image-container::after {
+    top: 0;
+    background: linear-gradient(to bottom, white, transparent);
+}
+
+.image-container::before {
+    bottom: 0;
+    background: linear-gradient(to top, white, transparent);
+}
