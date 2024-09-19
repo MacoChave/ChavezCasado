@@ -1,6 +1,7 @@
 .mask-y {
     mask-image: linear-gradient(
-        transparent 10%,
-        black, 
-        transparent 90%);
+        transparent 20%,
+        black 50%,
+        black 85%, 
+        transparent 95%);
 }
