@@ -1,3 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+  /* Agregar las fuentes personalizadas */
+  html {
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-lato {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .font-tangerine {
+    font-family: 'Tangerine', cursive;
+  }
+
+  /* Colores personalizados */
+  .bg-old-gold {
+    background-color: #CFB53B;
+  }
+
+  .text-old-gold {
+    color: #CFB53B;
+  }
+}
+
 .mask-y {
     mask-image: linear-gradient(
         transparent 20%,
