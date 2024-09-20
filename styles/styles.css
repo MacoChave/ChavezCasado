@@ -37,3 +37,15 @@
         black 85%, 
         transparent 95%);
 }
+
+.mosaico {
+  display: flex
+}
+
+.mosaico:nth-child(1n) {
+  width: 30px
+}
+
+.mosaico:nth-child(1n + 1) {
+  width: 60px
+}
