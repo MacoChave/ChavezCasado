@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	let adultsParams = urlParams.get('a');
 	let childrensParams = urlParams.get('c');
 
-	let family = localStorage.getItem('f') ?? familyParams;
-	let adults = localStorage.getItem('a') ?? adultsParams;
-	let childrens = localStorage.getItem('c') ?? childrensParams;
+	let family = /*localStorage.getItem('f') ??*/ familyParams;
+	let adults = /*localStorage.getItem('a') ??*/ adultsParams;
+	let childrens = /*(localStorage.getItem('c') ??*/ childrensParams;
 
 	if (!localStorage.getItem('f')) localStorage.setItem('f', familyParams);
 	if (!localStorage.getItem('a')) localStorage.setItem('a', adultsParams);
