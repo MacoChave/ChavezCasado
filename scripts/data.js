@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	let family = /*localStorage.getItem('f') ??*/ familyParams;
 	let adults = /*localStorage.getItem('a') ??*/ adultsParams;
 	let childrens = /*(localStorage.getItem('c') ??*/ childrensParams;
-
+/*
 	if (!localStorage.getItem('f')) localStorage.setItem('f', familyParams);
 	if (!localStorage.getItem('a')) localStorage.setItem('a', adultsParams);
 	if (!localStorage.getItem('c')) localStorage.setItem('c', childrensParams);
-
+*/
 	textFamily.innerHTML = family.toUpperCase();
 	textAdults.innerHTML = `Adultos ${adults}`;
 
